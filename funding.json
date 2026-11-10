@@ -1,0 +1,88 @@
+{
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Himanshu Verma",
+    "email": "himnshuverma10152006@gmail.com",
+    "description": "Open-source infrastructure engineer based in India. I'm a maintainer and Technical Committee member of CNCF Kepler, where I own GPU support, the Helm manifests, e2e tests and CI. I also contribute to Apache HugeGraph (95 merged PRs across Apache repos), where I wrote the distributed-mode Helm chart and fixed bugs in its consensus, storage and auth layers. I'm independent: no company pays me for this work.",
+    "webpageUrl": {
+      "url": "https://killl.me"
+    }
+  },
+  "projects": [
+    {
+      "guid": "kepler",
+      "name": "Kepler (CNCF)",
+      "description": "Kubernetes-based Efficient Power Level Exporter. Measures energy use at node, pod, container, VM and process level and exports it as Prometheus metrics. I'm a maintainer and TC member (voted in: https://github.com/sustainable-computing-io/kepler/pull/2550) and work on GPU (NVIDIA NVML) support, Helm manifests, e2e tests, CI and releases.",
+      "webpageUrl": {
+        "url": "https://sustainable-computing.io"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/sustainable-computing-io/kepler"
+      },
+      "licenses": ["spdx:Apache-2.0"],
+      "tags": ["kubernetes", "observability", "energy", "sustainability", "cloud-native", "golang"]
+    },
+    {
+      "guid": "apache-hugegraph",
+      "name": "Apache HugeGraph",
+      "description": "Distributed graph database under the Apache Software Foundation. I contribute to its distributed mode: the Kubernetes Helm chart, PD and Store recovery, readiness checks and auth.",
+      "webpageUrl": {
+        "url": "https://hugegraph.apache.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/apache/hugegraph"
+      },
+      "licenses": ["spdx:Apache-2.0"],
+      "tags": ["database", "graph-database", "distributed-systems", "kubernetes", "java"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank",
+        "type": "bank",
+        "description": "Indian bank account. Please email me for details."
+      },
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/bitflicker64",
+        "description": "GitHub Sponsors."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "kepler-fellowship",
+        "status": "active",
+        "name": "Kepler maintainer fellowship (6 months)",
+        "description": "Six months of dedicated maintainer time on Kepler: GPU support, e2e tests, CI and releases. Over the past year I'm the #3 contributor to Kepler out of 94 active contributors (346 contributions, 9%): https://insights.linuxfoundation.org/project/kepler/contributors?timeRange=past365days&start=2025-11-10&end=2026-11-10 . The same LFX page flags that Kepler mainly relies on two companies; I'm an independent maintainer, so funding me directly reduces that risk. I'll post a quarterly update on the FOSS United forum.",
+        "amount": 180000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": ["bank"]
+      },
+      {
+        "guid": "kepler-monthly",
+        "status": "active",
+        "name": "Monthly Kepler maintenance",
+        "description": "Ongoing Kepler maintenance: PR reviews, releases, CI and user issues. Any number of months helps.",
+        "amount": 30000,
+        "currency": "INR",
+        "frequency": "monthly",
+        "channels": ["bank"]
+      },
+      {
+        "guid": "sponsor",
+        "status": "active",
+        "name": "Sponsor my open-source work",
+        "description": "Any amount, through GitHub Sponsors.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["github-sponsors"]
+      }
+    ]
+  }
+}
