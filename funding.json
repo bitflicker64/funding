@@ -57,7 +57,7 @@
         "guid": "kepler-fellowship",
         "status": "active",
         "name": "Kepler maintainer fellowship (6 months)",
-        "description": "Six months of dedicated maintainer time on Kepler: GPU support, e2e tests, CI and releases. Over the past year I'm the #3 contributor to Kepler out of 94 active contributors (346 contributions, 9%): https://insights.linuxfoundation.org/project/kepler/contributors?timeRange=past365days&start=2025-11-10&end=2026-11-10 . The same LFX page flags that Kepler mainly relies on two companies; I'm an independent maintainer, so funding me directly reduces that risk. I'll post a quarterly update on the FOSS United forum.",
+        "description": "Six months of dedicated maintainer time on Kepler: GPU support, e2e tests, CI and releases. In the past year I'm #3 of 94 active Kepler contributors (346 contributions, 9%): https://insights.linuxfoundation.org/project/kepler/contributors?timeRange=past365days&start=2025-11-10&end=2026-11-10 The same LFX page flags that Kepler mainly relies on two companies; I'm an independent maintainer, so funding me directly reduces that risk. I'll post a quarterly update on the FOSS United forum.",
         "amount": 180000,
         "currency": "INR",
         "frequency": "one-time",
